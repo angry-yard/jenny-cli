@@ -1,15 +1,24 @@
 {
   "name": "Jenny",
   "version": "0.0.1",
-  "description": "Code generator",
+  "description": "Code generator and more",
   "main": "jenny.js",
   "author": {
-    "name": "ryan.grady",
-    "email": "me@ryangrady.net"
+    "name": "Ryan Grady",
+    "email": "ryan@angry-yard.com"
   },
   "bin": {
     "jenny": "jenny.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angry-yard/jenny-cli.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angry-yard/jenny-cli/issues"
+  },
+  "homepage": "https://github.com/angry-yard/jenny-cli",
   "dependencies": {
     "bluebird": "^3.4.6",
     "chance": "^0.8.0",
