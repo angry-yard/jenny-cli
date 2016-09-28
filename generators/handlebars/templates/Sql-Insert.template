@@ -1,0 +1,34 @@
+﻿CREATE PROCEDURE {{table.schema}}.[{{toPascalCase (toSingular table.name)}}_Insert]
+
+    {{#commaList table.columns options='{addComma: true}'}}@{{name}} {{types.toJavascriptType}}{{/commaList}}
+
+<%for (int i = 0; i < columns.Count(); i++)
+{ 
+    var column = columns.ElementAt(i);%>
+    @<%= column.Name %> <%= column.Strings.VariableType.ToUpper() %><% if (i < columns.Count() - 1) { %>,<% } %>
+<% } %>
+
+AS
+
+SET NOCOUNT ON
+
+INSERT INTO [<%= table.Owner.ToLower() %>].[<%= table.Name %>]
+(
+<%
+for (int i = 0; i < columns.Count(); i++)
+{ %>
+    [<%= columns.ElementAt(i).Name %>]<% if (i < columns.Count() - 1) { %>,<% } %>
+<% } %>
+)
+VALUES
+(
+<%
+for (int i = 0; i < columns.Count(); i++)
+{ %>
+    @<%= columns.ElementAt(i).Name %><% if (i < columns.Count() - 1) { %>,<% } %>
+<% } %>
+)
+
+SELECT SCOPE_IDENTITY() AS <%= table.Columns.FirstOrDefault(col => col.IsPrimaryKeyMember).Name %>
+
+GO

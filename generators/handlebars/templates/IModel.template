@@ -1,0 +1,6 @@
+﻿export interface {{toPascalCase (toSingular table.name)}} {
+    {{#each table.columns}}
+    {{toCamelCase name}}{{#if isNullable}}?{{/if}}: {{types.toJavascriptType}};{{#if isForeignKey}}
+    {{toCamelCase (toSingular foreignKey.table.name)}}: {{toPascalCase (toSingular foreignKey.table.name)}}{{/if}}
+    {{/each}}
+}
