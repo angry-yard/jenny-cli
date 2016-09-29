@@ -1,5 +1,5 @@
 {
-  "name": "Jenny",
+  "name": "jenny-cli",
   "version": "0.0.1",
   "description": "Code generator and more",
   "main": "jenny.js",
