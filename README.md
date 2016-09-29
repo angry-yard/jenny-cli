@@ -1,6 +1,6 @@
 ﻿# Jenny
 [![Build Status][travis-badge]][travis-badge-url]
-[![npm][npm-badge]][npm-badge-url]
+[![npm version](https://badge.fury.io/js/jenny-cli.svg)](https://badge.fury.io/js/jenny-cli)
 ## Summary
 This is a tool that helps in generating project items from templates, getting data 
 into the database and 
