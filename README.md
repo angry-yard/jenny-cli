@@ -7,9 +7,9 @@ into the database and
 
 ## Functionality
 
-Jenny has four primmary functions:
+Jenny has four primary functions:
 
-1. Creating code snippet.  This is the simpliest form and requires minimal configuration.
+1. Creating code snippet.  This is the simplest form and requires minimal configuration.
 
     These code templates are just short cuts to get a file started.  These can be used to aid 
     in ensuring a certain coding convention is followed, or just to save time.
@@ -30,6 +30,8 @@ but provides the most assistance.
     This not only keeps the separate code bases in sync, but helps a developer get the latest 
     version of the database schema and data.  This great for QA as a build can ensure that 
     certain data can be added to ensure the QA tests match the data.
+    
+## Current State
     
 Right now only one function has been written:
 
