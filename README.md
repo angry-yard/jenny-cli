@@ -1,4 +1,6 @@
 ﻿# Jenny
+[![Build Status][travis-badge]][travis-badge-url]
+[![npm][npm-badge]][npm-badge-url]
 ## Summary
 This is a tool that helps in generating project items from templates, getting data 
 into the database and 
