@@ -30,3 +30,11 @@ but provides the most assistance.
     This not only keeps the separate code bases in sync, but helps a developer get the latest 
     version of the database schema and data.  This great for QA as a build can ensure that 
     certain data can be added to ensure the QA tests match the data.
+    
+Right now only one function has been written:
+
+```bash
+jenny template-process
+```
+
+This function will be replaced to reflect the concepts on the [Code Generation](https://github.com/angry-yard/jenny-cli/wiki/Code-Generation) in the wiki.
