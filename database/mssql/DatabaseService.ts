@@ -1,6 +1,4 @@
-﻿///<reference path="../../typings/index.d.ts"/>
-
-import * as sql from "mssql";
+﻿import * as sql from "mssql";
 import * as Promise from "bluebird";
 import * as _ from "underscore";
 import {IDatabaseService} from "../common/interfaces/IDatabaseService";

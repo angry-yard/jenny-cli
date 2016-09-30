@@ -1,6 +1,4 @@
-﻿///<reference path="typings/index.d.ts"/>
-
-import * as _ from "underscore";
+﻿import * as _ from "underscore";
 import {IConfigFile} from "./config/IConfigFile";
 import {IDatabaseService} from "./database/common/interfaces/IDatabaseService";
 import {IGenerator} from "./generators/interfaces/IGenerator";

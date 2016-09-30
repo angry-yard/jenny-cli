@@ -1,4 +1,3 @@
-///<reference path="../../typings/index.d.ts"/>
 "use strict";
 var sql = require("mssql");
 var Promise = require("bluebird");
@@ -44,12 +43,10 @@ var DatabaseService = (function () {
                 var table;
                 _.each(recordset, function (record) {
                     if (tableId !== record.table_id) {
-                        // Table has already been created
                         table = new Table_1.Table(record);
                         tables.push(table);
                         tableId = record.table_id;
                     }
-                    // Add column
                     var column = new Column_1.Column(table, record);
                     table.columns.push(column);
                 });

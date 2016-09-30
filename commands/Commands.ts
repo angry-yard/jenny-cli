@@ -1,58 +1,35 @@
-﻿///<reference path="../typings/index.d.ts"/>
+﻿import * as commander from "commander";
+import {ICommanderProperties} from "./interfaces/ICommanderProperties";
 
 export class Commands {
     constructor() {
-        this.action = process.argv[2];
+        commander
+            .option("--project [value]", "Add project")
+            .option("--database [value]", "Add database")
+            .option("--templates [value]", "Add templates", this.createList)
+            .option("--tables [value]", "Add tables", this.createList)
+            .parse(process.argv);
 
-        var args = process.argv.slice(3);
+        var properties : ICommanderProperties = commander;
 
-        // Look for each parameter
-        args.forEach((item: string, index: number) => {
-            switch (item) {
-                case "-database":
-                    this.databaseName = args[index + 1];
-                    break;
-                case "-templates":
-                    var remainingItems = args.slice(index + 1);
-                    var index1 = this.findNextParameter(remainingItems);
-
-                    if (index1 === 0) {
-                        this.templates = remainingItems;
-                    } else {
-                        this.templates = args.slice(index + 1, index1);
-                    }
-
-                    break;
-                case "-tables":
-                    var remainingTables = args.slice(index + 1);
-                    var index2 = this.findNextParameter(remainingTables);
-
-                    if (index2 === 0) {
-                        this.tables = remainingTables;
-                    } else {
-                        this.tables = remainingTables.slice(0, index2);
-                    }
-
-                    break;
-            }
-        });
+        this.action = properties.args[0];
+        this.databaseName = properties.databaseName;
+        this.project = properties.project;
+        this.templates = properties.templates;
+        this.tables = properties.tables;
     }
 
     action: string;
     databaseName: string;
     tables: string[];
     templates: string[];
+    project: string;
 
-    private findNextParameter = (items: string[]): number => {
-        var returned = 0;
+    private createList = (item: string): string[] => {
+        if (item) {
+            return item.split(",");
+        }
 
-        items.forEach((item: string, index: number) => {
-            if (item.indexOf("-") === 0) {
-                returned = index;
-                return;
-            }
-        });
-
-        return returned;
-    }
+        return null;
+    };
 }

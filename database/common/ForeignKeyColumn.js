@@ -1,7 +1,7 @@
 "use strict";
 var ForeignKeyColumn = (function () {
     function ForeignKeyColumn(column, foreignKeyColumns) {
-        this.column = column;
+        this.foreignColumn = column;
     }
     return ForeignKeyColumn;
 }());

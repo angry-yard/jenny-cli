@@ -1,6 +1,4 @@
-﻿///<reference path="../../typings/index.d.ts"/>
-
-import * as handlebars from "handlebars";
+﻿import * as handlebars from "handlebars";
 import {JString} from "../../strings/JString";
 import {ICommaListOptions} from "./interfaces/ICommaListOptions";
 

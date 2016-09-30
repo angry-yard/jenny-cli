@@ -1,15 +1,14 @@
-///<reference path="../../typings/index.d.ts"/>
-
-import * as knex from "knex";
+//import * as knex from "knex";
 
 export class QueryBuilder {
-    private sql: knex;
+    //private sql: knex;
 
     constructor() {
-        this.sql = knex({client: "mssql"});
+        //this.sql = knex({client: "mssql"});
     }
 
     getTables = (includedTables?: string[], excludedTables?: string[]): string => {
-        return this.sql("table").insert("test").toString();
+        return null;
+        //return this.sql("table").insert("test").toString();
     };
 }

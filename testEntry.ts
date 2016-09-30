@@ -1,5 +1,3 @@
-///<reference path="./typings/index.d.ts"/>
-
 import * as _ from "underscore";
 import {IDatabase} from "./config/IDatabase";
 import {IDatabaseService} from "./database/common/interfaces/IDatabaseService";

@@ -1,4 +1,3 @@
-///<reference path="../../typings/index.d.ts"/>
 "use strict";
 var handlebars = require("handlebars");
 var JString_1 = require("../../strings/JString");

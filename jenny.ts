@@ -1,7 +1,6 @@
 ﻿import {Engine} from "./Engine";
 import {Commands} from "./commands/Commands";
 
-
 // Create engine to run functionality
 var engine = new Engine();
 
@@ -10,7 +9,7 @@ var commands = new Commands();
 
 // Ensure called action is valid
 switch (commands.action) {
-    case "template-process":
+    case "generate":
         engine.processTemplates(commands.databaseName, commands.templates, commands.tables);
 
         break;

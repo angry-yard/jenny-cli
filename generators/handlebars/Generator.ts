@@ -1,6 +1,4 @@
-﻿///<reference path="../../typings/index.d.ts"/>
-
-import * as handlebars from "handlebars";
+﻿import * as handlebars from "handlebars";
 import * as fs from "fs";
 import * as Promise from "bluebird";
 import * as path from "path";

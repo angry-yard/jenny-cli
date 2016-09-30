@@ -4,8 +4,9 @@ import {Column} from "./Column";
 
 export class ForeignKeyColumn implements IForeignKeyColumn {
     constructor(column: Column, foreignKeyColumns: Array<IColumn>) {
-        this.column = column;
+        this.foreignColumn = column;
     }
 
-    column: Column;
+    id: number;
+    foreignColumn: Column;
 }

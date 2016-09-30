@@ -1,6 +1,4 @@
-﻿///<reference path="../../typings/index.d.ts"/>
-
-import * as Promise from "bluebird";
+﻿import * as Promise from "bluebird";
 import {Table} from "../../database/common/Table";
 import {IConfigFile} from "../../config/IConfigFile";
 import {File} from "../FileTypes/File";

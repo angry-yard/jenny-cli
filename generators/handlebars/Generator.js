@@ -1,4 +1,3 @@
-///<reference path="../../typings/index.d.ts"/>
 "use strict";
 var handlebars = require("handlebars");
 var fs = require("fs");
@@ -18,9 +17,6 @@ var Generator = (function () {
             _.each(_this.templates, function (file) {
                 console.log("writing " + file.name + " for table - " + table.name);
                 var outputFileName = new JString_1.JString(table.name).toSingular().toPascalCase().toString();
-                // See if template output already exists to include any deltas
-                //var deltas = this.getDeltas(path.join(output, outputFileName + "." + file.extension), file);
-                // Read template
                 var template = handlebars.compile(file.contents);
                 var fileContents = template({ table: table, configFile: _this.configFile });
                 var filePath = path.join(file.outputPath, outputFileName + "." + file.extension);
@@ -41,10 +37,8 @@ var Generator = (function () {
             var deltas = regex.exec(content);
             return deltas[1];
         };
-        // Register handlebars helpers
         Helpers_1.Helpers.registerHelpers();
         this.templates = [];
-        // Load all templates from disk
         _.each(configFile.templates.files, function (file) {
             var fileType = FileType_1.FileType[file.fileType];
             var template = new File_1.File(fileType);
