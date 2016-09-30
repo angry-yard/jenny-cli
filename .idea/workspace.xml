@@ -2,57 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c21f962-3814-45d6-9494-f618f22e652f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commands/interfaces/ICommanderProperties.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commands/interfaces/ICommanderProperties.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commands/interfaces/ICommanderProperties.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/strings/JString.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/strings/JString.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/strings/JString.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/strings/TypeConvertor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/strings/TypeConvertor.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/strings/TypeConvertor.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/strings/interfaces/ITypeConvertor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/strings/interfaces/ITypeConvertor.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/strings/interfaces/ITypeConvertor.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testEntry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testEntry.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tsconfig.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/typescript-compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/typings.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Engine.js" afterPath="$PROJECT_DIR$/Engine.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Engine.js.map" afterPath="$PROJECT_DIR$/Engine.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Engine.ts" afterPath="$PROJECT_DIR$/Engine.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commands/Commands.js" afterPath="$PROJECT_DIR$/commands/Commands.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commands/Commands.js.map" afterPath="$PROJECT_DIR$/commands/Commands.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commands/Commands.ts" afterPath="$PROJECT_DIR$/commands/Commands.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/common/ForeignKeyColumn.js" afterPath="$PROJECT_DIR$/database/common/ForeignKeyColumn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/common/ForeignKeyColumn.js.map" afterPath="$PROJECT_DIR$/database/common/ForeignKeyColumn.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/common/ForeignKeyColumn.ts" afterPath="$PROJECT_DIR$/database/common/ForeignKeyColumn.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/common/QueryBuilder.js" afterPath="$PROJECT_DIR$/database/common/QueryBuilder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/common/QueryBuilder.js.map" afterPath="$PROJECT_DIR$/database/common/QueryBuilder.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/common/QueryBuilder.ts" afterPath="$PROJECT_DIR$/database/common/QueryBuilder.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/common/interfaces/IDatabaseService.js" afterPath="$PROJECT_DIR$/database/common/interfaces/IDatabaseService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/common/interfaces/IDatabaseService.js.map" afterPath="$PROJECT_DIR$/database/common/interfaces/IDatabaseService.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/common/interfaces/IDatabaseService.ts" afterPath="$PROJECT_DIR$/database/common/interfaces/IDatabaseService.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/mssql/DatabaseService.js" afterPath="$PROJECT_DIR$/database/mssql/DatabaseService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/mssql/DatabaseService.js.map" afterPath="$PROJECT_DIR$/database/mssql/DatabaseService.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/mssql/DatabaseService.ts" afterPath="$PROJECT_DIR$/database/mssql/DatabaseService.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/handlebars/Generator.js" afterPath="$PROJECT_DIR$/generators/handlebars/Generator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/handlebars/Generator.js.map" afterPath="$PROJECT_DIR$/generators/handlebars/Generator.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/handlebars/Generator.ts" afterPath="$PROJECT_DIR$/generators/handlebars/Generator.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/handlebars/Helpers.js" afterPath="$PROJECT_DIR$/generators/handlebars/Helpers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/handlebars/Helpers.js.map" afterPath="$PROJECT_DIR$/generators/handlebars/Helpers.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/handlebars/Helpers.ts" afterPath="$PROJECT_DIR$/generators/handlebars/Helpers.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/interfaces/IGenerator.js" afterPath="$PROJECT_DIR$/generators/interfaces/IGenerator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/interfaces/IGenerator.js.map" afterPath="$PROJECT_DIR$/generators/interfaces/IGenerator.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/interfaces/IGenerator.ts" afterPath="$PROJECT_DIR$/generators/interfaces/IGenerator.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jenny.js" afterPath="$PROJECT_DIR$/jenny.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jenny.js.map" afterPath="$PROJECT_DIR$/jenny.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jenny.ts" afterPath="$PROJECT_DIR$/jenny.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testEntry.ts" afterPath="$PROJECT_DIR$/testEntry.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGELOG.md" afterPath="$PROJECT_DIR$/CHANGELOG.md" />
     </list>
     <ignored path="Jenny.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,12 +39,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="544">
+              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CHANGELOG.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="221">
+                <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -178,7 +142,6 @@
         <option value="$PROJECT_DIR$/documentation/Data-Sync.md" />
         <option value="$PROJECT_DIR$/sample.jenny.config.json" />
         <option value="$PROJECT_DIR$/documentation/Data-Generation.md" />
-        <option value="$PROJECT_DIR$/CHANGELOG.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/index.d.ts" />
@@ -198,6 +161,7 @@
         <option value="$PROJECT_DIR$/commands/Commands.ts" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/CHANGELOG.md" />
       </list>
     </option>
   </component>
@@ -376,15 +340,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interfaces" />
+              <option name="myItemId" value="commands" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -399,6 +355,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="commands" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interfaces" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -542,7 +502,7 @@
       <workItem from="1475090708109" duration="333000" />
       <workItem from="1475114052514" duration="4795000" />
       <workItem from="1475122131128" duration="1098000" />
-      <workItem from="1475247604286" duration="10923000" />
+      <workItem from="1475247604286" duration="11690000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1475087227342</created>
@@ -635,22 +595,29 @@
       <option name="project" value="LOCAL" />
       <updated>1475122645044</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Upgraded to Typescript 2&#10;Changed command line arguments to use Commander&#10;Moved typings to npm">
+      <created>1475259594249</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1475259594249</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102408000" />
+    <option name="totallyTimeSpent" value="103175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17377399" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17377399" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -692,7 +659,8 @@
     <MESSAGE value="Travis updates" />
     <MESSAGE value="README changes and new package version to reflect changes in npm" />
     <MESSAGE value="README changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="README changes" />
+    <MESSAGE value="Upgraded to Typescript 2&#10;Changed command line arguments to use Commander&#10;Moved typings to npm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upgraded to Typescript 2&#10;Changed command line arguments to use Commander&#10;Moved typings to npm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -732,16 +700,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/output.html" />
     <entry file="file://$PROJECT_DIR$/template.html" />
-    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="68">
-            <caret line="4" column="92" selection-start-line="4" selection-start-column="92" selection-end-line="4" selection-end-column="92" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jenny.config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -918,16 +876,6 @@
         <state relative-caret-position="221">
           <caret line="13" column="1" selection-start-line="12" selection-start-column="6" selection-end-line="13" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testEntry.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1116,9 +1064,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="544">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testEntry.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="221">
+            <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
