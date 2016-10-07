@@ -7,11 +7,12 @@ npm-debug.log*
 jsconfig.json
 .vscode/
 
-# Typings file.
-typings/
-
 # Misc
 tmp/
+
+# Ignore Javascript files
+*.js
+*.js.map
 
 # Mac OSX Finder files.
 **/.DS_Store

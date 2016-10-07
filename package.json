@@ -1,6 +1,6 @@
 {
   "name": "jenny-cli",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Code generator and more",
   "main": "jenny.js",
   "author": {
@@ -19,11 +19,20 @@
     "url": "https://github.com/angry-yard/jenny-cli/issues"
   },
   "homepage": "https://github.com/angry-yard/jenny-cli",
+  "scripts": {
+    "build": "npm run clearDist && npm run compile && npm run copyFiles",
+    "copyFiles": "copy README.md dist && copy package.json dist",
+    "clearDist": "del dist\\*.* /s /q",
+    "publish": "npm publish dist",
+    "compile": "tsc --module amd --moduleResolution node --outFile dist/jenny.js --declaration --listFiles --skipLibCheck"
+  },
   "dependencies": {
     "bluebird": "^3.4.6",
     "chance": "^0.8.0",
     "commander": "^2.9.0",
     "handlebars": "^4.0.3",
+    "jenny-database": "^0.6.0",
+    "jenny-mssql": "^0.1.0",
     "mssql": "^2.3.1",
     "readable-stream": "^2.0.2",
     "tedious": "^1.12.3",

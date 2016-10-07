@@ -2,8 +2,213 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c21f962-3814-45d6-9494-f618f22e652f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engine.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/commands/Commands.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/commands/Commands.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/commands/Commands.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/commands/interfaces/ICommanderProperties.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/commands/interfaces/ICommanderProperties.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/commands/interfaces/ICommanderProperties.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/IColumn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/IColumn.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/IColumn.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/IConfigFile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/IConfigFile.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/IConfigFile.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/IConnectionInformation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/IConnectionInformation.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/IConnectionInformation.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/IDatabase.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/IDatabase.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/IDatabase.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/IFile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/IFile.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/IFile.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/IProject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/IProject.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/IProject.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/IProjectDatabase.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/IProjectDatabase.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/IProjectDatabase.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/IProjectTable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/IProjectTable.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/IProjectTable.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/ITable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/ITable.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/ITable.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/ITableConfig.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/ITableConfig.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/ITableConfig.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/ITemplate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/ITemplate.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/ITemplate.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/IVirutalColumn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/IVirutalColumn.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/IVirutalColumn.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generators/fileTypes/File.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generators/fileTypes/File.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generators/fileTypes/File.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generators/fileTypes/FileType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generators/fileTypes/FileType.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generators/fileTypes/FileType.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generators/handlebars/Generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generators/handlebars/Generator.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generators/handlebars/Generator.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generators/handlebars/Helpers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generators/handlebars/Helpers.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generators/handlebars/Helpers.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generators/handlebars/interfaces/ICommaListOptions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generators/handlebars/interfaces/ICommaListOptions.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generators/handlebars/interfaces/ICommaListOptions.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generators/interfaces/IGenerator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generators/interfaces/IGenerator.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generators/interfaces/IGenerator.ts" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Engine.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commands/Commands.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commands/Commands.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commands/Commands.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commands/interfaces/ICommanderProperties.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commands/interfaces/ICommanderProperties.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commands/interfaces/ICommanderProperties.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/IColumn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/IColumn.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/IColumn.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/IConfigFile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/IConfigFile.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/IConfigFile.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/IConnectionInformation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/IConnectionInformation.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/IConnectionInformation.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/IDatabase.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/IDatabase.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/IDatabase.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/IFile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/IFile.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/IFile.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/IProject.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/IProject.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/IProject.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/IProjectDatabase.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/IProjectDatabase.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/IProjectDatabase.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/IProjectTable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/IProjectTable.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/IProjectTable.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/ITable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/ITable.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/ITable.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/ITableConfig.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/ITableConfig.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/ITableConfig.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/ITemplate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/ITemplate.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/ITemplate.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/IVirutalColumn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/IVirutalColumn.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/IVirutalColumn.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/Column.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/Column.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/Column.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/ForeignKeyColumn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/ForeignKeyColumn.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/ForeignKeyColumn.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/PrimaryKey.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/PrimaryKey.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/PrimaryKey.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/PrimaryKeyColumn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/PrimaryKeyColumn.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/PrimaryKeyColumn.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/QueryBuilder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/QueryBuilder.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/QueryBuilder.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/Table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/Table.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/Table.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/interfaces/IColumn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/interfaces/IColumn.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/interfaces/IColumn.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/interfaces/IDatabaseService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/interfaces/IDatabaseService.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/interfaces/IDatabaseService.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/interfaces/IForeignKeyColumn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/interfaces/IForeignKeyColumn.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/interfaces/IForeignKeyColumn.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/interfaces/IForeignKeyResponse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/interfaces/IForeignKeyResponse.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/interfaces/IForeignKeyResponse.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/interfaces/IPrimaryKey.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/interfaces/IPrimaryKey.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/interfaces/IPrimaryKey.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/interfaces/IPrimaryKeyColumn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/interfaces/IPrimaryKeyColumn.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/interfaces/IPrimaryKeyColumn.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/interfaces/IPrimaryKeyResponse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/interfaces/IPrimaryKeyResponse.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/interfaces/IPrimaryKeyResponse.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/interfaces/ITable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/interfaces/ITable.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/interfaces/ITable.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/interfaces/ITableResponse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/interfaces/ITableResponse.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/common/interfaces/ITableResponse.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/mssql/DatabaseService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/mssql/DatabaseService.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/mssql/DatabaseService.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/mssql/Queries.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/mssql/Queries.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/mssql/Queries.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/mssql/interfaces/IColumn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/mssql/interfaces/IColumn.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/mssql/interfaces/IColumn.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/mssql/interfaces/ITable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/mssql/interfaces/ITable.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/mssql/interfaces/ITable.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/generators/fileTypes/File.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/generators/fileTypes/File.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/generators/fileTypes/File.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/generators/fileTypes/FileType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/generators/fileTypes/FileType.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/generators/fileTypes/FileType.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/generators/handlebars/Generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/generators/handlebars/Generator.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/generators/handlebars/Generator.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/generators/handlebars/Helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/generators/handlebars/Helpers.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/generators/handlebars/Helpers.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/generators/handlebars/interfaces/ICommaListOptions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/generators/handlebars/interfaces/ICommaListOptions.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/generators/handlebars/interfaces/ICommaListOptions.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/generators/handlebars/templates/Dto.template" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/generators/handlebars/templates/IModel.template" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/generators/handlebars/templates/Sql-Insert.template" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/generators/interfaces/IGenerator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/generators/interfaces/IGenerator.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/generators/interfaces/IGenerator.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jenny.config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample.jenny.config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sync-sample.config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/strings/JString.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/strings/JString.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/strings/JString.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/strings/TypeConvertor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/strings/TypeConvertor.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/strings/TypeConvertor.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/strings/interfaces/ITypeConvertor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/strings/interfaces/ITypeConvertor.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/strings/interfaces/ITypeConvertor.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testEntry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testEntry.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testEntry.ts" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Engine.js" afterPath="$PROJECT_DIR$/src/Engine.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Engine.ts" afterPath="$PROJECT_DIR$/src/Engine.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jenny.js" afterPath="$PROJECT_DIR$/src/jenny.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jenny.js.map" afterPath="$PROJECT_DIR$/src/jenny.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jenny.ts" afterPath="$PROJECT_DIR$/src/jenny.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGELOG.md" afterPath="$PROJECT_DIR$/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="Jenny.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,76 +230,7 @@
     <favorites_list name="Jenny" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="727">
-                <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CHANGELOG.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="221">
-                <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tsconfig.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Commands.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commands/Commands.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ICommanderProperties.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commands/interfaces/ICommanderProperties.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -111,62 +247,64 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/IFile.ts" />
-        <option value="$PROJECT_DIR$/config/IConfigFile.ts" />
-        <option value="$PROJECT_DIR$/generators/handlebars/templates/Sql-Insert.template" />
-        <option value="$PROJECT_DIR$/generators/fileTypes/File.ts" />
-        <option value="$PROJECT_DIR$/database/common/interfaces/IForeignKeyResponse.ts" />
-        <option value="$PROJECT_DIR$/database/common/interfaces/IForeignKeyColumn.ts" />
-        <option value="$PROJECT_DIR$/database/common/interfaces/IColumn.ts" />
-        <option value="$PROJECT_DIR$/typings/globals/mssql/index.d.ts" />
-        <option value="$PROJECT_DIR$/typings/globals/knex/index.d.ts" />
-        <option value="$PROJECT_DIR$/typings/index.d.ts" />
-        <option value="$PROJECT_DIR$/database/common/interfaces/ITableResponse.ts" />
-        <option value="$PROJECT_DIR$/database/common/Table.ts" />
-        <option value="C:/Templates/Asset.cs" />
         <option value="C:/Templates/Asset.sql" />
-        <option value="$PROJECT_DIR$/database/common/Column.ts" />
         <option value="$PROJECT_DIR$/generators/handlebars/templates/IModel.template.ts" />
-        <option value="$PROJECT_DIR$/strings/TypeConvertor.ts" />
-        <option value="$PROJECT_DIR$/jenny.config.json" />
         <option value="$PROJECT_DIR$/documentation/Installation.md" />
         <option value="$PROJECT_DIR$/documentation/Code-Generation.md" />
         <option value="$PROJECT_DIR$/documentation/Code-Templates.md" />
         <option value="$PROJECT_DIR$/documentation/Code-Snippets.md" />
         <option value="C:/Templates/Pad.ts" />
         <option value="C:/Templates/Asset.ts" />
-        <option value="$PROJECT_DIR$/database/common/interfaces/IPrimaryKeyResponse.ts" />
-        <option value="$PROJECT_DIR$/database/mssql/Queries.ts" />
         <option value="$PROJECT_DIR$/generators/handlebars/templates/IModel.template" />
         <option value="$PROJECT_DIR$/sync-sample.config.json" />
         <option value="$PROJECT_DIR$/documentation/Data-Sync.md" />
-        <option value="$PROJECT_DIR$/sample.jenny.config.json" />
         <option value="$PROJECT_DIR$/documentation/Data-Generation.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/index.d.ts" />
-        <option value="$PROJECT_DIR$/database/mssql/DatabaseService.ts" />
-        <option value="$PROJECT_DIR$/generators/handlebars/Generator.ts" />
-        <option value="$PROJECT_DIR$/generators/handlebars/Helpers.ts" />
-        <option value="$PROJECT_DIR$/Engine.ts" />
         <option value="$PROJECT_DIR$/database/common/interfaces/IDatabaseService.ts" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/database/common/QueryBuilder.ts" />
         <option value="$PROJECT_DIR$/testEntry.ts" />
-        <option value="$PROJECT_DIR$/generators/interfaces/IGenerator.ts" />
         <option value="$PROJECT_DIR$/database/common/ForeignKeyColumn.ts" />
         <option value="$PROJECT_DIR$/jenny.ts" />
         <option value="$PROJECT_DIR$/commands/interfaces/IArguments.ts" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/commands/interfaces/ICommanderProperties.ts" />
         <option value="$PROJECT_DIR$/commands/Commands.ts" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/database/mssql/Queries.ts" />
+        <option value="$PROJECT_DIR$/database/common/interfaces/IPrimaryKeyResponse.ts" />
+        <option value="$PROJECT_DIR$/sample.jenny.config.json" />
+        <option value="$PROJECT_DIR$/database/common/interfaces/IColumn.ts" />
+        <option value="$PROJECT_DIR$/database/common/Column.ts" />
+        <option value="$PROJECT_DIR$/database/mssql/DatabaseService.ts" />
+        <option value="$PROJECT_DIR$/strings/TypeConvertor.ts" />
+        <option value="$PROJECT_DIR$/generators/handlebars/Helpers.ts" />
+        <option value="C:/Templates/Asset.cs" />
+        <option value="C:/Templates/AssetMap.cs" />
+        <option value="C:/Templates/Scenario.cs" />
+        <option value="C:/Templates/Pad.cs" />
+        <option value="$PROJECT_DIR$/config/IFile.ts" />
+        <option value="$PROJECT_DIR$/jenny.config.json" />
+        <option value="$PROJECT_DIR$/Engine.ts" />
+        <option value="$PROJECT_DIR$/generators/fileTypes/File.ts" />
+        <option value="$PROJECT_DIR$/generators/interfaces/IGenerator.ts" />
+        <option value="$PROJECT_DIR$/generators/handlebars/Generator.ts" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/generators/interfaces/IGenerator.ts" />
+        <option value="$PROJECT_DIR$/src/generators/handlebars/Helpers.ts" />
+        <option value="$PROJECT_DIR$/src/generators/handlebars/Generator.ts" />
+        <option value="$PROJECT_DIR$/src/jenny.config.json" />
+        <option value="$PROJECT_DIR$/src/Engine.ts" />
         <option value="$PROJECT_DIR$/CHANGELOG.md" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/dist/jenny.d.ts" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -224,8 +362,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -254,7 +392,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="generators" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -268,97 +406,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="generators" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="handlebars" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jenny-cli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jenny-cli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generators" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fileTypes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jenny-cli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jenny-cli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mssql" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jenny-cli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jenny-cli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jenny-cli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jenny-cli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commands" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jenny-cli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jenny-cli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commands" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interfaces" />
+              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -367,7 +415,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jenny-cli-example" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
@@ -377,15 +425,17 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="typescript-compiler-editor-notification" value="false" />
+    <property name="prop_add_unversioned_files" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\One\OneDrive\Work\Jenny\Code\jenny-cli" />
-      <recent name="C:\One\OneDrive\Work\Jenny\Code\jenny-cli\generators\fileTypes\interfaces" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\One\OneDrive\Work\Jenny\Code\jenny-cli\generators\handlebars\templates" />
       <recent name="C:\Users\RyanGrady\Desktop\Jenny\documentation" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\One\OneDrive\Work\Jenny\Code\jenny-cli" />
+      <recent name="C:\One\OneDrive\Work\Jenny\Code\jenny-cli\src" />
+      <recent name="C:\One\OneDrive\Work\Jenny\Code\jenny-cli\generators\fileTypes\interfaces" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.Default">
@@ -502,7 +552,14 @@
       <workItem from="1475090708109" duration="333000" />
       <workItem from="1475114052514" duration="4795000" />
       <workItem from="1475122131128" duration="1098000" />
-      <workItem from="1475247604286" duration="11690000" />
+      <workItem from="1475247604286" duration="14591000" />
+      <workItem from="1475503390897" duration="85000" />
+      <workItem from="1475587427094" duration="733000" />
+      <workItem from="1475603203109" duration="3652000" />
+      <workItem from="1475682977904" duration="17922000" />
+      <workItem from="1475763453668" duration="5179000" />
+      <workItem from="1475778981779" duration="1271000" />
+      <workItem from="1475849542185" duration="8296000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1475087227342</created>
@@ -602,26 +659,34 @@
       <option name="project" value="LOCAL" />
       <updated>1475259594249</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Updated changelog">
+      <created>1475260283140</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1475260283140</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103175000" />
+    <option name="totallyTimeSpent" value="143214000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17377399" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17377399" sideWeight="0.5039019" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.49573562" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17377399" sideWeight="0.4960981" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -660,11 +725,12 @@
     <MESSAGE value="README changes and new package version to reflect changes in npm" />
     <MESSAGE value="README changes" />
     <MESSAGE value="Upgraded to Typescript 2&#10;Changed command line arguments to use Commander&#10;Moved typings to npm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upgraded to Typescript 2&#10;Changed command line arguments to use Commander&#10;Moved typings to npm" />
+    <MESSAGE value="Updated changelog" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated changelog" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="57" />
+      <option name="time" value="63" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -681,157 +747,292 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/documentation/Data-Sync.md" />
-    <entry file="file://$PROJECT_DIR$/sync-sample.config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/Code-Generation.md" />
-    <entry file="file://$PROJECT_DIR$/documentation/Data-Generation.md" />
-    <entry file="file://$PROJECT_DIR$/sample.jenny.config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="69" column="59" selection-start-line="69" selection-start-column="59" selection-end-line="69" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output.html" />
-    <entry file="file://$PROJECT_DIR$/template.html" />
-    <entry file="file://$PROJECT_DIR$/jenny.config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/common/interfaces/IPrimaryKeyResponse.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typings.json">
+    <entry file="file://$PROJECT_DIR$/config/ITemplate.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.d.ts">
+    <entry file="file://$PROJECT_DIR$/database/mssql/DatabaseService.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="148" column="25" selection-start-line="148" selection-start-column="25" selection-end-line="148" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strings/JString.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-158">
+          <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+          <caret line="136" column="25" selection-start-line="136" selection-start-column="25" selection-end-line="136" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/handlebars/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="202" column="19" selection-start-line="202" selection-start-column="12" selection-end-line="202" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Templates/InjectionLineStatus.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/common/interfaces/IColumn.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-          <folding />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/IColumn.ts">
+    <entry file="file://C:/Templates/WellSubPadMap.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/IConfigFile.ts">
+    <entry file="file://C:/Templates/WellMap.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/common/Column.ts">
+    <entry file="file://C:/Templates/SubPadMap.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="14" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/common/PrimaryKeyColumn.ts">
+    <entry file="file://C:/Templates/SubPad.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#65#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/common/Table.ts">
+    <entry file="file://C:/Templates/PadMap.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Templates/AssetMap.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Templates/Scenario.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Templates/Asset.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Templates/Pad.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generators/handlebars/Helpers.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample.jenny.config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generators/fileTypes/FileType.ts">
+    <entry file="file://$PROJECT_DIR$/config/IFile.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="153">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/generators/fileTypes/File.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="935">
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/mssql/Queries.ts">
+    <entry file="file://$PROJECT_DIR$/generators/interfaces/IGenerator.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generators/handlebars/Generator.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strings/interfaces/ITypeConvertor.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/node/types-metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/mssql/types-metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/commander/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="180" column="8" selection-start-line="180" selection-start-column="8" selection-end-line="180" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/IDatabase.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/strings/TypeConvertor.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        <state relative-caret-position="544">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/knex/index.d.ts">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/common/interfaces/IDatabaseService.ts">
+    <entry file="file://$PROJECT_DIR$/src/config/IColumn.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generators/fileTypes/FileType.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strings/interfaces/ITypeConvertor.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strings/JString.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2174">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strings/TypeConvertor.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commands/Commands.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generators/fileTypes/File.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generators/handlebars/interfaces/ICommaListOptions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generators/handlebars/Helpers.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generators/interfaces/IGenerator.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
@@ -841,239 +1042,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/mssql/DatabaseService.ts">
+    <entry file="file://$PROJECT_DIR$/src/generators/handlebars/Generator.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generators/handlebars/Generator.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generators/handlebars/Helpers.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/common/QueryBuilder.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" selection-start-line="12" selection-start-column="6" selection-end-line="13" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generators/interfaces/IGenerator.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#36#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/common/interfaces/IForeignKeyColumn.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/common/ForeignKeyColumn.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="102">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#0#65#0" expanded="false" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/common/PrimaryKey.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#52#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/common/interfaces/IPrimaryKey.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strings/JString.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1313">
-          <caret line="120" column="51" selection-start-line="120" selection-start-column="51" selection-end-line="120" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/bluebird/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/handlebars/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/underscore/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/mssql/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jenny.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/typescriptCompiler/external/lib.es6.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="1585" column="4" selection-start-line="1585" selection-start-column="4" selection-end-line="1585" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jenny.ts">
+    <entry file="file://$PROJECT_DIR$/src/jenny.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Engine.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
           <folding>
             <element signature="e#0#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+    <entry file="file://$PROJECT_DIR$/src/jenny.config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="442">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/minimist/index.d.ts">
+    <entry file="file://$PROJECT_DIR$/src/commands/interfaces/ICommanderProperties.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/commander/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
-          <caret line="411" column="0" selection-start-line="411" selection-start-column="0" selection-end-line="411" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commands/interfaces/ICommanderProperties.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commands/Commands.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="727">
-            <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testEntry.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1081,11 +1081,101 @@
     <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="221">
-            <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+          <first_editor relative-caret-position="153">
+            <caret line="9" column="78" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generators/handlebars/templates/IModel.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generators/handlebars/templates/Dto.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generators/handlebars/templates/Sql-Insert.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="172" column="1" selection-start-line="172" selection-start-column="1" selection-end-line="172" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#72#111#0" expanded="true" />
+            <element signature="n#!!block;n#ICommanderProperties#0;n#&quot;jenny&quot;#0" expanded="false" />
+            <element signature="n#Commands#0;n#&quot;jenny&quot;#0" expanded="false" />
+            <element signature="n#!!block;n#IColumn#0;n#&quot;jenny&quot;#0" expanded="false" />
+            <element signature="n#!!block;n#IFile#0;n#&quot;jenny&quot;#0" expanded="false" />
+            <element signature="n#!!block;n#ITemplate#0;n#&quot;jenny&quot;#0" expanded="false" />
+            <element signature="n#!!block;n#IConnectionInformation#0;n#&quot;jenny&quot;#0" expanded="false" />
+            <element signature="n#!!block;n#IVirtualColumn#0;n#&quot;jenny&quot;#0" expanded="false" />
+            <element signature="n#!!block;n#ITable#0;n#&quot;jenny&quot;#0" expanded="false" />
+            <element signature="n#!!block;n#ITableConfig#0;n#&quot;jenny&quot;#0" expanded="false" />
+            <element signature="n#!!block;n#IDatabase#0;n#&quot;jenny&quot;#0" expanded="false" />
+            <element signature="n#!!block;n#IProjectTable#0;n#&quot;jenny&quot;#0" expanded="false" />
+            <element signature="n#!!block;n#IProjectDatabase#0;n#&quot;jenny&quot;#0" expanded="false" />
+            <element signature="n#!!block;n#IProject#0;n#&quot;jenny&quot;#0" expanded="false" />
+            <element signature="n#!!block;n#IConfigFile#0;n#&quot;jenny&quot;#0" expanded="false" />
+            <element signature="n#!!block;n#IGenerator#0;n#&quot;jenny&quot;#0" expanded="false" />
+            <element signature="n#Engine#0;n#&quot;jenny&quot;#0" expanded="false" />
+            <element signature="n#FileType#0;n#&quot;jenny&quot;#0" expanded="false" />
+            <element signature="n#File#0;n#&quot;jenny&quot;#0" expanded="false" />
+            <element signature="n#Helpers#0;n#&quot;jenny&quot;#0" expanded="false" />
+            <element signature="n#!!block;n#ICommaListOptions#0;n#&quot;jenny&quot;#0" expanded="false" />
+            <element signature="n#Generator#0;n#&quot;jenny&quot;#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/jenny.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engine.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
