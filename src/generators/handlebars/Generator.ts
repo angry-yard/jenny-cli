@@ -6,7 +6,8 @@ import * as _ from "underscore";
 import {IGenerator} from "../interfaces/IGenerator";
 import {Helpers} from "./Helpers";
 import {IConfigFile} from "../../config/IConfigFile";
-import {Table, JString} from "jenny-database";
+import {Table} from "jenny-database/Table";
+import {JString} from "jenny-database/strings/JString";
 import {FileType} from "../fileTypes/FileType";
 import {File} from "../fileTypes/File";
 import {IFile} from "../../config/IFile";
@@ -29,6 +30,12 @@ export class Generator implements IGenerator {
             template.templatePath = path.join(file.path, file.fileName);
             template.generationMethod = file.generationMethod;
             template.tableNames = file.tables;
+
+            if (!fs.existsSync(template.templatePath)) {
+                // Template cannot be found
+                console.log(`Template ${template.templatePath} cannot be found.  Be check the config file.`);
+                process.exit();
+            }
 
             // Template file can be a global or local npm package or can have the path set
             var source = fs.readFileSync(template.templatePath);
@@ -105,7 +112,6 @@ export class Generator implements IGenerator {
         var lastTable = _.last(tables);
 
         _.each(tables, (table: Table) => {
-
             console.log(`writing ${file.name} for table - ${table.name}`);
 
             this.processTemplate(file, null, table);

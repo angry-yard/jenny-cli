@@ -1,6 +1,6 @@
 {
   "name": "jenny-cli",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Code generator and more",
   "main": "jenny.js",
   "author": {
@@ -28,21 +28,15 @@
   },
   "dependencies": {
     "bluebird": "^3.4.6",
-    "chance": "^0.8.0",
     "commander": "^2.9.0",
     "handlebars": "^4.0.3",
-    "jenny-database": "^0.6.0",
-    "jenny-mssql": "^0.1.0",
-    "mssql": "^2.3.1",
-    "readable-stream": "^2.0.2",
-    "tedious": "^1.12.3",
+    "jenny-database": "^0.8.0",
     "underscore": "^1.8.3"
   },
   "devDependencies": {
     "@types/bluebird": "^3.0.33",
     "@types/commander": "^2.3.30",
     "@types/handlebars": "^4.0.31",
-    "@types/mssql": "^3.1.29",
     "@types/node": "^6.0.41",
     "@types/underscore": "^1.7.33",
     "typescript": "^2.0.3"

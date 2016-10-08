@@ -1,5 +1,5 @@
 ﻿import * as handlebars from "handlebars";
-import {JString} from "jenny-database";
+import {JString} from "jenny-database/strings/JString";
 import {ICommaListOptions} from "./interfaces/ICommaListOptions";
 
 export class Helpers {

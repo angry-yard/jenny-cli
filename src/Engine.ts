@@ -2,7 +2,8 @@
 import * as fs from "fs";
 import * as path from "path";
 import {IConfigFile} from "./config/IConfigFile";
-import {IDatabaseService, Table} from "jenny-database";
+import {IDatabaseService} from "jenny-database/interfaces/IDatabaseService";
+import {Table} from "jenny-database/Table";
 import {IGenerator} from "./generators/interfaces/IGenerator";
 import {IDatabase} from "./config/IDatabase";
 
@@ -28,7 +29,12 @@ export class Engine {
             if (fs.existsSync(modulePath)) {
                 // Load database service based on setting
                 let service = require(modulePath);
-                this.databaseService = new service.DatabaseService(database);
+                this.databaseService = new service.DatabaseService(database.connectionInformation.username,
+                    database.connectionInformation.password,
+                    database.connectionInformation.server,
+                    database.connectionInformation.databaseName,
+                    database.tablesConfig.include,
+                    database.tablesConfig.exclude);
             } else {
                 console.log(`Database driver ${database.databaseProvider} cannot be found`);
                 process.exit();
@@ -36,7 +42,7 @@ export class Engine {
         });
 
         // Load generator based on setting
-        let generator = require(this.configFile.templateEngine);
+        let generator = require(`./generators/${this.configFile.templateEngine}/Generator`);
         this.jenny = new generator.Generator(this.configFile);
     }
 
@@ -48,6 +54,8 @@ export class Engine {
                     console.log("No tables to process");
                     process.exit();
                 }
+
+                console.log("Tables have been loaded");
 
                 this.jenny.processTemplates(tables);
             })

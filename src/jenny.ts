@@ -1,4 +1,4 @@
-﻿#!/user/bin/env node
+﻿#!/usr/bin/env node
 
 import {Engine} from "./Engine";
 import {Commands} from "./commands/Commands";
@@ -19,6 +19,13 @@ switch (commands.action) {
         console.log("Help is under construction");
         break;
     default:
-        console.log(`Action - ${commands.action}, was not found`);
+        if (commands.action) {
+            console.log(`Action - ${commands.action}, was not found`);
+        } else {
+            console.log("Jenny cannot run without parameters. For help, type jenny --help");
+        }
+
+        process.exit();
+
         break;
 }

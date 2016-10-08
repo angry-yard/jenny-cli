@@ -1,3 +1,7 @@
+#0.6.0 10/08/2016
+The external module issues have been flushed and jenny can be installed globally.  Some error handling
+was added as well.
+
 #0.4.0 10/07/2016
 The application was significantly changed.  The database objects and SQL Server were taken out and converted
 to their own modules, providing sharing and extensibility.

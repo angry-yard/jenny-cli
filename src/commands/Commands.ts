@@ -3,6 +3,11 @@ import {ICommanderProperties} from "./interfaces/ICommanderProperties";
 
 export class Commands {
     constructor() {
+        // Add help menu
+        commander.on("--help", () => {
+            console.log("Need to add custom help");
+        });
+
         var properties: ICommanderProperties = commander.parse(process.argv);
         var action = properties.args[0];
 
