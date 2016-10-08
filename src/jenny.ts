@@ -1,4 +1,6 @@
-﻿import {Engine} from "./Engine";
+﻿#!/user/bin/env node
+
+import {Engine} from "./Engine";
 import {Commands} from "./commands/Commands";
 
 // Create engine to run functionality

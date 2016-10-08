@@ -1,6 +1,6 @@
 {
   "name": "jenny-cli",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Code generator and more",
   "main": "jenny.js",
   "author": {
@@ -24,7 +24,7 @@
     "copyFiles": "copy README.md dist && copy package.json dist",
     "clearDist": "del dist\\*.* /s /q",
     "publish": "npm publish dist",
-    "compile": "tsc --module amd --moduleResolution node --outFile dist/jenny.js --declaration --listFiles --skipLibCheck"
+    "compile": "tsc --module commonjs --outDir dist --declaration --listFiles --skipLibCheck"
   },
   "dependencies": {
     "bluebird": "^3.4.6",

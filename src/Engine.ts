@@ -1,4 +1,6 @@
 ﻿import * as _ from "underscore";
+import * as fs from "fs";
+import * as path from "path";
 import {IConfigFile} from "./config/IConfigFile";
 import {IDatabaseService, Table} from "jenny-database";
 import {IGenerator} from "./generators/interfaces/IGenerator";
@@ -11,13 +13,26 @@ export class Engine {
 
     constructor() {
         // Load configuration file
-        this.configFile = require("./jenny.config.json");
+        if (fs.existsSync(process.cwd() + "/jenny.config.json")) {
+            this.configFile = require(process.cwd() + "/jenny.config.json");
+        } else {
+            console.log("jenny.config.json cannot be found. Ensure jenny is being executed in the root of the project");
+            process.exit();
+        }
 
         // Iterate through each database in the config and create a service and generator for  it
         _.each(this.configFile.databases, (database: IDatabase) => {
-            // Load database service based on setting
-            let service = require(`./database/${database.databaseProvider}/DatabaseService`);
-            this.databaseService = new service.DatabaseService(database);
+            var modulePath = path.join(process.cwd(), "node_modules", database.databaseProvider);
+
+            // Ensure module is installed
+            if (fs.existsSync(modulePath)) {
+                // Load database service based on setting
+                let service = require(modulePath);
+                this.databaseService = new service.DatabaseService(database);
+            } else {
+                console.log(`Database driver ${database.databaseProvider} cannot be found`);
+                process.exit();
+            }
         });
 
         // Load generator based on setting
